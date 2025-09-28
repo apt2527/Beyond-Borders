@@ -30,13 +30,20 @@ The website introduces the travel agency "Beyond Borders," showcasing destinatio
 
 ## 📂 Project Structure  
 
-├── index.html # Main website file
+├──index.html # Main website file
+
 ├── form.html # Registration form (linked from index.html)
+
 ├── Barcelona.jpeg # Gallery image
+
 ├── Goa.jpeg
+
 ├── Paris.jpg
+
 ├── Venice.jpeg
+
 ├── Taj Mahal.mp4 # Gallery video
+
 └── README.md # Documentation
 
 
