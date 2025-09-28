@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1><u>Regsitration Form</u></h1>
+  
+    <form action="/submit.php">
+
+<div>
+    <label for="Name">Name</label>
+    <input id="Name" type="text" placeholder="Enter name" required>
+</div>
+                    <br>
+
+<div>
+    <label for="ph">Phone</label>
+    <input id="ph" type="tel" placeholder="Enter Phone" required>
+</div>
+                    <br>
+<!-- This is input for email -->
+<div>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="Enter Email" required>
+</div>
+                    <br>
+
+ <div>
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="Enter Password" required>
+</div>
+                    <br>
+ <div>
+    <label for="DOB">Date of Birth</label>
+    <input id="DOB" type="date" required>
+</div>
+                    <br>
+
+ <div>
+    <label for="gender">Gender</label>
+    <select  id="gender" required> 
+    <option value="disabled selected">Select Gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Others</option>
+</select>
+
+<!-- Checkbox -->
+<div>
+    <input id="terms" type="checkbox" required>
+    <label for="terms">I agree to terms and conditions</label>
+</div>
+
+ <div>
+    <label for="comments">Comments</label>
+    <textarea id="Comments" placeholder="enter comments" rows="4"></textarea>
+</div>
+                        <br>
+
+<div>
+    <button type="submit">Submit</button>
+</div>
+    </form>
+    
+</body>
+</html>
